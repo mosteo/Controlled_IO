@@ -1,13 +1,15 @@
-name = "controlled_io"
-description = "RAII wrapper over files"
+name = "examples"
+description = "Examples of using the library"
 version = "0.1.0-dev"
 
 authors = ["Alejandro R. Mosteo"]
 maintainers = ["Alejandro R. Mosteo <alejandro@mosteo.com>"]
 maintainers-logins = ["mosteo"]
 licenses = "BSD-3-Clause"
-website = "https://github.com/jrcarter/Controlled_IO"
-tags = ["file", "raii", "controlled", "io"]
+website = ""
+tags = ["demo", "example"]
+
+executables = ["controlled_test", "controlled_text", "controlled_utf"]
 
 [build-switches]
 release.style_checks = "no"
