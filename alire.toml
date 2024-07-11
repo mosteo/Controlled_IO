@@ -1,0 +1,13 @@
+name = "controlled_io"
+description = "RAII wrapper over files"
+version = "0.1.0-dev"
+
+authors = ["Alejandro R. Mosteo"]
+maintainers = ["Alejandro R. Mosteo <alejandro@mosteo.com>"]
+maintainers-logins = ["mosteo"]
+licenses = "BSD-3-Clause"
+website = "https://github.com/jrcarter/Controlled_IO"
+tags = ["file", "raii", "controlled", "io"]
+
+[build-switches]
+"*".style_checks = "no"
